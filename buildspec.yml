@@ -1,14 +1,14 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      nodejs: 18
+  #install:
+   # runtime-versions:
+    #  nodejs: 18
    
-    commands:
+    #commands:
         # install npm
-        - npm install
-        - npm install react-scripts --save
+     #   - npm install
+     #   - npm install react-scripts --save
        
   build:
     commands:
